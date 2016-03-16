@@ -20,7 +20,7 @@ Version: 0.1
 }
 body {
   font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Microsoft Yahei","宋体",Arial,sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   color: #333;
   background-color: #eff3f5;
 }
@@ -42,6 +42,9 @@ p{
 h2,h3,h4,h5{
   font-weight: normal;
   font-size: 15px;
+}
+p {
+    line-height: 28px;
 }
 .clear{
   clear: both;
@@ -144,4 +147,55 @@ h2,h3,h4,h5{
 }
 .bd p {
     color: #848484;
+}
+
+
+/*footer*/
+.footer {
+    background-color: #0097cc;
+}
+.footf {
+    padding:30px 0;
+}
+.row {
+    overflow: hidden;
+}
+.col-md-3 {
+    float: left;
+    margin: 0 10px;
+    width: 25%;
+}
+.col-md-2 {
+    float: left;
+    width: 15%;
+}
+.col-md-4 {
+    float: right;
+    width: 31%;
+}
+.row h4 {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.footer p {
+    color: #fff;
+    font-size: 13px;
+}
+.footer p a ,.footer-copyright a{
+    color: #fff;
+}
+.footer-copyright {
+    background-color: #0A3646;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+}
+.left-copy {
+    float: left;
+}
+.right-copy {
+    float: right;
 }
