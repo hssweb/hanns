@@ -1,0 +1,147 @@
+/*
+Theme Name:Hanns
+Description:for Hanns Seidel Stiftung · Vertretung Shanghai
+Author:Kane && Chen
+Version: 0.1
+*/
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+::selection {
+  background: #376e97;
+  color: #fff;
+  text-shadow: none;
+}
+body {
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Microsoft Yahei","宋体",Arial,sans-serif;
+  font-size: 15px;
+  color: #333;
+  background-color: #eff3f5;
+}
+a {
+  text-decoration: none;
+  color: #424242;
+  overflow: hidden;
+}
+a:hover{
+  color:#6b95ea;
+}
+li{
+  list-style: none;
+}
+p{
+  color: #474B48;
+  line-height: 1.5em;
+}
+h2,h3,h4,h5{
+  font-weight: normal;
+  font-size: 15px;
+}
+.clear{
+  clear: both;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+}
+.header {
+    background: #fff;
+    box-shadow: rgba(0,0,0,.3) 0 1px 3px;
+}
+.logo {
+    background-color: #0097cc;
+    height: 106px;
+    width: 130px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 2;
+    display: inline-block;
+}
+.logo a {
+    background-image: url(img/logo.png);
+    text-indent: -9999px;
+    width: 116px;
+    height: 66px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.g-row {
+    position: relative;
+    overflow: hidden;
+}
+.nav {
+    float: left;
+    margin: 20px 0 20px 140px;
+}
+.nav li {
+    float: left;
+    margin-right: 10px;
+}
+.nav li a {
+    font-size: 18px;
+    padding: 20px;
+}
+#navWrap{
+    margin-top: 100px;
+    background: #fff;
+    
+}
+.title{
+    width:1170px; 
+    text-align:center;
+    margin:0px auto; 
+}
+.title h3{
+    font-size: 40px;
+    color: #28292A;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 8px 0;
+    height: 80px;
+    line-height: 80px;
+}
+.slideTxtBox{ width:1170px; text-align:left;margin:0px auto;  }
+.slideTxtBox .hd{ height:60px; line-height:60px; padding:0 20px; border-bottom:1px solid #ddd;  position:relative; }
+.slideTxtBox .hd ul{ float:left; position:absolute; left:20px; top:-1px; height:32px;   }
+.slideTxtBox .hd ul li{ float:left; padding:0 15px; cursor:pointer;font-size: 20px;  }
+.slideTxtBox .hd ul li.on{ height:60px;  background:#fff; border:1px solid #ddd; border-bottom:1px solid #fff; }
+.slideTxtBox .bd ul{ padding:15px;  zoom:1;  }
+.slideTxtBox .bd li{ height:24px; line-height:24px;   }
+.slideTxtBox .bd li .date{ float:right; color:#999;  }
+.pull-left{
+  float: left;
+}
+.bd-left{
+    float: left;
+    width: 33%;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: left;
+    margin:20px 0;
+}
+.bd-left p{
+  line-height: 50px;
+}
+.bd-right{
+    float: left;
+    width: 66%;
+    font-size: 20px;
+    text-align: left;
+    margin:20px 0 20px 10px;
+}
+.bd p {
+    color: #848484;
+}
