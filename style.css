@@ -24,13 +24,13 @@ body {
   color: #333;
   background-color: #eff3f5;
 }
-a {
+a ,.header a:hover{
   text-decoration: none;
-  color: #424242;
+  color: #6b95ea;
   overflow: hidden;
 }
-a:hover{
-  color:#6b95ea;
+a:hover,.header a{
+  color:#424242;
 }
 li{
   list-style: none;
@@ -59,6 +59,7 @@ p {
     background: #fff;
     box-shadow: rgba(0,0,0,.3) 0 1px 3px;
 }
+.header a{}
 .logo {
     background-color: #0097cc;
     height: 106px;
@@ -200,3 +201,80 @@ p {
     float: right;
 }
 /*footer End*/
+/*about*/
+.about-banner{
+  background-image: url(img/dune7.jpg);
+  background-position: 50% 3px;
+  background-size: 100%;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  padding: 90px 0 90px;
+}
+.top-text {
+  display: table-cell;
+  height: 100%;
+  width: auto;
+  vertical-align: middle;
+  margin-left: 1px;
+}
+.header-title {
+  margin-top: 10px;
+  position: relative;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.text-left {
+  text-align: left;
+}
+.header-message {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: rgba(255,255,255,0.6);
+  letter-spacing: 3px;
+}
+.section-portfolio {
+    padding-bottom: 60px;
+    padding-top: 50px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.content-wrap {
+    float: left;
+    width: 100%;
+}
+.article-title {
+    color: #28292A;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 8px 0;
+}
+.sidebar {
+    float: left;
+    margin-left: -300px;
+    width: 300px;
+    position: relative;
+}
+.widget {
+    margin-bottom: 20px;
+}
+.widget h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.sidebar p {
+    color: #848484;
+}
+.conter {
+    position: relative;
+    margin-right: 400px;
+}
+/*about End*/
