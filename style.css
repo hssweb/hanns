@@ -278,3 +278,76 @@ p {
     margin-right: 400px;
 }
 /*about End*/
+.text-head {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+.text-head h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.learn {
+    overflow: hidden;
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+.learn-topic {
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+.topich {
+    display: block;
+    position: relative;
+    height: 100%;
+}
+.topicnot {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    z-index: 9;
+    border-left: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 0;
+    color: #fff;
+    text-shadow: 0px 1px 3px #000;
+    width: 100%;
+    text-align: center;
+}
+.topich .topicnot h3 {
+    text-shadow: 1px 1px 5px #000;
+    font-size: 2.5em;
+    line-height: 1.3;
+    text-align: center;
+}
+.topicbg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(-90deg, rgba(0,122,255,0.3) 0%, rgba(0,0,0,0.8) 100%);
+    background-position: center top;
+    background-repeat: repeat-x;
+    z-index: 8;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    transition: all .8s ease;
+}
+.topich img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+.topich:hover .topicbg{
+  opacity: 0.3;
+}
